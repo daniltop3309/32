@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+<!--        поменять на appointment для 1 задания/ form для второго задания-->
+        <form class="card" method="post" action="appointment">
+            {% csrf_token %}
+            <div class="card__text">Make an Appointment</div>
+            <div class="card__line">
+                <input type="text" class="name" name="name" placeholder="Name">
+                <input type="email" class="email" name="email" placeholder="Email">
+            </div>
+            <div class="card__line-1">
+                <input type="text" class="phone" name="phone" placeholder="Phone">
+                <input type="text" class="service" name="service" placeholder="Service">
+            </div>
+            <textarea name="txt" class="card__area" name="card__area" placeholder="Tell us About the car needung(s) service"></textarea>
+            <button type="submit" class="card__btn">
+                <div class="card__btn-text"><p>Make an Appointment</p></div>
+            </button>
+<!--            2 задание, все прошлое закомментить-->
+<!--            {{form}}-->
+<!--            <button type="submit" class="card__btn">-->
+<!--                <div class="card__btn-text"><p>Make an Appointment</p></div>-->
+<!--                </button>-->
+        </form>
+        <div class="text">
+            <div class="text-title">Maxime placeat facere <br> possimus omnis </div>
+            <div class="text-count">17k</div>
+            <div class="text-main">customers served (and counting)</div>
+        </div>
+    </div>
+</body>
+</html>

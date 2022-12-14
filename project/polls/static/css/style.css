@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.container {
+    background: url(../img/APPOINTMENT.png);
+    height: 980px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 585px;
+    height: 640px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+}
+.card__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #02133C;
+    margin-top: 76px;
+}
+.card__line {
+    margin-top: 48px;
+}
+.name {
+    width: 200px;
+    height: 48px;
+    background: #F5F5F5;
+    padding-left: 20px;
+}
+.email {
+    width: 200px;
+    height: 48px;
+    background: #F5F5F5;
+    margin-left: 22px;
+    padding-left: 20px;
+}
+.phone {
+    width: 200px;
+    height: 48px;
+    background: #F5F5F5;
+    padding-left: 20px;
+}
+.service {
+    width: 200px;
+    height: 48px;
+    background: #F5F5F5;
+    margin-left: 22px;
+    padding-left: 20px;
+}
+.card__line-1 {
+    margin-top: 22px;
+}
+.card__area {
+    width: 450px;
+    height: 180px;
+    background: #F5F5F5;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    /* /Neutral/Gray 2 */
+    color: #959595;
+    padding-left: 23px;
+    padding-top: 17px;
+}
+.card__btn {
+    background: #C40B0B;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+    margin-left: 220px;
+}
+.card__btn-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 2px;
+    margin-left: 30px;
+}
+.card__btn-text p::after {
+    content: '';
+    background: url('../img/arrow_forward_24px.png') no-repeat center center/cover;
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+.card__btn-text p {
+    display: flex;
+    align-items: center;
+}
+.text {
+    width: 325px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+
+    text-align: center;
+
+    /* /Neutral/White */
+
+    color: #FFFFFF;
+}
+.text-count {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 56px;
+    /* or 58% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* /Car Repair/Primary */
+    color: #C40B0B;
+    margin-top: 50px;
+}
+.text-main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    /* identical to box height, or 137% */
+    text-align: center;
+    /* /Neutral/White */
+    color: #FFFFFF;
+    margin-top: 50px;
+}
